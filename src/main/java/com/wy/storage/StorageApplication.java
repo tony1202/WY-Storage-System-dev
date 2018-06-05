@@ -1,12 +1,12 @@
-package com.example.demo;
+package com.wy.storage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication(scanBasePackages = {"com.wy"})
+public class StorageApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(StorageApplication.class, args);
 	}
 }
